@@ -3,6 +3,7 @@ package com.example
 import android.os.Bundle
 import android.widget.Toast
 import androidx.activity.ComponentActivity
+import androidx.activity.compose.BackHandler
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.animation.Crossfade
@@ -96,6 +97,14 @@ fun KumbhSaathiMainApp(
                 onSplashFinished = { showSplash = false }
             )
         } else {
+            // Handle Back Button: close drawer first, or navigate to HOME if on sub-screen
+            BackHandler(enabled = drawerState.isOpen) {
+                coroutineScope.launch { drawerState.close() }
+            }
+            BackHandler(enabled = !drawerState.isOpen && currentScreen != AppScreen.HOME) {
+                viewModel.navigateToScreen(AppScreen.HOME)
+            }
+
             ModalNavigationDrawer(
                 drawerState = drawerState,
                 gesturesEnabled = true,
