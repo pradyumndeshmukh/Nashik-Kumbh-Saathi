@@ -1,0 +1,89 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="400dp"
+    android:height="200dp"
+    android:viewportWidth="400"
+    android:viewportHeight="200">
+
+    <!-- Sky Gradient -->
+    <path
+        android:pathData="M0,0 L400,0 L400,120 L0,120 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="200"
+                android:startY="0"
+                android:endX="200"
+                android:endY="120">
+                <item android:offset="0.0" android:color="#FF3E1200"/>
+                <item android:offset="0.4" android:color="#FFE65100"/>
+                <item android:offset="0.8" android:color="#FFF57C00"/>
+                <item android:offset="1.0" android:color="#FFFFB300"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Glowing Sun Disc -->
+    <path
+        android:pathData="M200,60m-30,0a30,30 0 1,1 60,0a30,30 0 1,1 -60,0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="radial"
+                android:centerX="200"
+                android:centerY="60"
+                android:gradientRadius="30">
+                <item android:offset="0.0" android:color="#FFFFF59D"/>
+                <item android:offset="0.7" android:color="#FFFFB300"/>
+                <item android:offset="1.0" android:color="#00FFB300"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Temple Silhouette (Trimbakeshwar & Kalaram Shikhara) -->
+    <path
+        android:pathData="M160,110 L180,60 L200,40 L220,60 L240,110 Z"
+        android:fillColor="#2C1609"/>
+    <path
+        android:pathData="M198,30 L200,15 L202,30 Z"
+        android:fillColor="#FFD54F"/>
+    <path
+        android:pathData="M120,110 L135,75 L150,110 Z"
+        android:fillColor="#3D200F"/>
+    <path
+        android:pathData="M250,110 L265,75 L280,110 Z"
+        android:fillColor="#3D200F"/>
+
+    <!-- River Ghat Steps -->
+    <path
+        android:pathData="M0,110 L400,110 L400,140 L0,140 Z"
+        android:fillColor="#4A2810"/>
+    <path
+        android:pathData="M0,120 L400,120 L400,123 L0,123 Z"
+        android:fillColor="#FFB300"/>
+    <path
+        android:pathData="M0,130 L400,130 L400,133 L0,133 Z"
+        android:fillColor="#FF8F00"/>
+
+    <!-- Sacred Godavari Water Reflection -->
+    <path
+        android:pathData="M0,140 L400,140 L400,200 L0,200 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="200"
+                android:startY="140"
+                android:endX="200"
+                android:endY="200">
+                <item android:offset="0.0" android:color="#0277BD"/>
+                <item android:offset="0.5" android:color="#01579B"/>
+                <item android:offset="1.0" android:color="#002171"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Golden Sun reflection ripples on river -->
+    <path
+        android:pathData="M160,150 L240,150 M170,160 L230,160 M180,170 L220,170 M190,180 L210,180"
+        android:strokeWidth="2"
+        android:strokeColor="#80FFE082"/>
+</vector>

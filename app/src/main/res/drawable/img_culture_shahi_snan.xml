@@ -1,0 +1,45 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="220dp"
+    android:viewportWidth="400"
+    android:viewportHeight="220">
+    <!-- Sky Background Gradient -->
+    <path
+        android:fillColor="#FFF8E1"
+        android:pathData="M0,0h400v220H0z"/>
+    <!-- Orange Aura Sun -->
+    <path
+        android:fillColor="#FFE0B2"
+        android:pathData="M200,110m-80,0a80,80 0 1,0 160,0a80,80 0 1,0 -160,0"/>
+    <path
+        android:fillColor="#FFB74D"
+        android:pathData="M200,110m-50,0a50,50 0 1,0 100,0a50,50 0 1,0 -100,0"/>
+    <path
+        android:fillColor="#E65100"
+        android:pathData="M200,110m-25,0a25,25 0 1,0 50,0a25,25 0 1,0 -50,0"/>
+    <!-- Temple Shikhara Silhouettes -->
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M120,150 L140,80 L160,150 Z M240,150 L260,70 L280,150 Z M180,150 L200,50 L220,150 Z"/>
+    <!-- Kalash Nectar Symbol -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M190,45 Q200,35 210,45 Q215,55 200,60 Q185,55 190,45 Z"/>
+    <!-- River Godavari Waves -->
+    <path
+        android:fillColor="#0288D1"
+        android:pathData="M0,150 Q50,135 100,150 T200,150 T300,150 T400,150 L400,220 L0,220 Z"/>
+    <path
+        android:fillColor="#03A9F4"
+        android:pathData="M0,170 Q50,160 100,170 T200,170 T300,170 T400,170 L400,220 L0,220 Z"/>
+    <path
+        android:fillColor="#81D4FA"
+        android:pathData="M0,195 Q50,190 100,195 T200,195 T300,195 T400,195 L400,220 L0,220 Z"/>
+    <!-- Floating Marigold Diya -->
+    <path
+        android:fillColor="#FF6F00"
+        android:pathData="M190,185 Q200,175 210,185 Q205,195 195,195 Z"/>
+    <path
+        android:fillColor="#FFEE58"
+        android:pathData="M198,175 Q200,165 202,175 Z"/>
+</vector>

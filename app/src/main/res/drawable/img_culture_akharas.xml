@@ -1,0 +1,36 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="220dp"
+    android:viewportWidth="400"
+    android:viewportHeight="220">
+    <!-- Deep Maroon Spiritual Canvas -->
+    <path
+        android:fillColor="#3E2723"
+        android:pathData="M0,0h400v220H0z"/>
+    <!-- Golden Radial Ring -->
+    <path
+        android:fillColor="#4E342E"
+        android:pathData="M200,110m-90,0a90,90 0 1,0 180,0a90,90 0 1,0 -180,0"/>
+    <path
+        android:fillColor="#E65100"
+        android:pathData="M200,110m-60,0a60,60 0 1,0 120,0a60,60 0 1,0 -120,0"/>
+    <!-- Sacred Trishul (Trident) Center Emblem -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M196,40 L204,40 L204,170 L196,170 Z M175,70 Q200,100 225,70 L220,60 Q200,85 180,60 Z M165,50 Q175,35 180,50 L175,60 Z M220,60 Q225,35 235,50 L230,60 Z"/>
+    <!-- Sacred Damru Drum -->
+    <path
+        android:fillColor="#FF8F00"
+        android:pathData="M185,115 L215,115 L190,140 L210,140 Z"/>
+    <!-- Saffron Procession Flags -->
+    <path
+        android:fillColor="#FF6F00"
+        android:pathData="M60,60 L120,80 L60,100 Z M340,60 L280,80 L340,100 Z"/>
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M56,50 L60,50 L60,180 L56,180 Z M340,50 L344,50 L344,180 L340,180 Z"/>
+    <!-- Sacred Ash Lotus Base -->
+    <path
+        android:fillColor="#FFB300"
+        android:pathData="M140,180 Q200,160 260,180 Q200,210 140,180 Z"/>
+</vector>

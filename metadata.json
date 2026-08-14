@@ -1,0 +1,6 @@
+{
+  "name": "Nashik Kumbh Saathi",
+  "description": "A comprehensive guide and companion app for pilgrims and visitors attending the Nashik-Trimbakeshwar Simhastha Kumbh Mela 2027.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

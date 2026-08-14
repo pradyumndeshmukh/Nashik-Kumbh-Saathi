@@ -1,0 +1,42 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="220dp"
+    android:viewportWidth="400"
+    android:viewportHeight="220">
+    <!-- Sunset Sky Background -->
+    <path
+        android:fillColor="#E0F7FA"
+        android:pathData="M0,0h400v220H0z"/>
+    <!-- Ramkund Temple Towers -->
+    <path
+        android:fillColor="#00695C"
+        android:pathData="M80,140 L100,60 L120,140 Z M130,140 L150,80 L170,140 Z M230,140 L250,70 L270,140 Z M280,140 L300,50 L320,140 Z"/>
+    <!-- Main Center Temple -->
+    <path
+        android:fillColor="#004D40"
+        android:pathData="M180,140 L200,30 L220,140 Z"/>
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M197,20 L203,20 L200,30 Z"/>
+    <!-- Ghat Steps (Pauri) -->
+    <path
+        android:fillColor="#80CBC4"
+        android:pathData="M0,140 H400 V150 H0 Z M10,150 H390 V160 H10 Z M20,160 H380 V170 H20 Z"/>
+    <!-- Sacred Godavari River Pool -->
+    <path
+        android:fillColor="#00838F"
+        android:pathData="M0,170 H400 V220 H0 Z"/>
+    <path
+        android:fillColor="#26C6DA"
+        android:pathData="M0,185 Q100,175 200,185 T400,185 V220 H0 Z"/>
+    <!-- Floating Diyas -->
+    <path
+        android:fillColor="#FF8F00"
+        android:pathData="M100,195m-6,0a6,6 0 1,0 12,0a6,6 0 1,0 -12,0"/>
+    <path
+        android:fillColor="#FF8F00"
+        android:pathData="M200,200m-8,0a8,8 0 1,0 16,0a8,8 0 1,0 -16,0"/>
+    <path
+        android:fillColor="#FF8F00"
+        android:pathData="M300,192m-6,0a6,6 0 1,0 12,0a6,6 0 1,0 -12,0"/>
+</vector>

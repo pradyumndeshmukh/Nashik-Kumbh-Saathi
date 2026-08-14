@@ -1,0 +1,38 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="220dp"
+    android:viewportWidth="400"
+    android:viewportHeight="220">
+    <!-- Cosmic Midnight Blue Canvas -->
+    <path
+        android:fillColor="#1A237E"
+        android:pathData="M0,0h400v220H0z"/>
+    <!-- Golden Cosmic Aura Ring -->
+    <path
+        android:fillColor="#283593"
+        android:pathData="M200,110m-95,0a95,95 0 1,0 190,0a95,95 0 1,0 -190,0"/>
+    <path
+        android:fillColor="#3949AB"
+        android:pathData="M200,110m-75,0a75,75 0 1,0 150,0a75,75 0 1,0 -150,0"/>
+    <path
+        android:fillColor="#FFB300"
+        android:pathData="M200,110m-55,0a55,55 0 1,0 110,0a55,55 0 1,0 -110,0"/>
+    <path
+        android:fillColor="#FFE082"
+        android:pathData="M200,110m-40,0a40,40 0 1,0 80,0a40,40 0 1,0 -80,0"/>
+    <!-- Jupiter Celestial Planet Symbol -->
+    <path
+        android:fillColor="#FF6F00"
+        android:pathData="M185,95 Q200,85 215,95 Q210,125 185,125 Q175,110 185,95 Z"/>
+    <!-- Starburst Rays -->
+    <path
+        android:fillColor="#FFF59D"
+        android:pathData="M198,10 L202,10 L202,210 L198,210 Z M10,108 L10,112 L390,112 L390,108 Z"/>
+    <!-- Simha (Lion) Zodiac Crest Silhouette -->
+    <path
+        android:fillColor="#212121"
+        android:pathData="M180,160 Q200,140 220,160 Q230,185 200,195 Q170,185 180,160 Z"/>
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M190,170 Q200,155 210,170 Z"/>
+</vector>

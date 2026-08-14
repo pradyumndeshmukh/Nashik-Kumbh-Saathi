@@ -1,0 +1,195 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Circular White/Gold Canvas Frame -->
+    <path
+        android:pathData="M100,100m-95,0a95,95 0 1,1 190,0a95,95 0 1,1 -190,0"
+        android:fillColor="#FFFFFF"/>
+
+    <!-- Outer Decorative Arch / Ring -->
+    <path
+        android:pathData="M25,115 C20,70 50,25 100,25 C150,25 180,70 175,115"
+        android:strokeWidth="4"
+        android:strokeColor="#8D1B00"/>
+    <path
+        android:pathData="M32,112 C28,75 54,32 100,32 C146,32 172,75 168,112"
+        android:strokeWidth="2"
+        android:strokeColor="#E65100"/>
+
+    <!-- Temple Shikharas (Saffron Temple Domes in Arc Background) -->
+    <!-- Left Domes -->
+    <path
+        android:pathData="M40,110 L48,82 L56,110 Z"
+        android:fillColor="#D84315"/>
+    <path
+        android:pathData="M52,105 L62,68 L72,105 Z"
+        android:fillColor="#E65100"/>
+    <path
+        android:pathData="M66,100 L78,52 L90,100 Z"
+        android:fillColor="#EF6C00"/>
+
+    <!-- Center Main Temple Shikhara -->
+    <path
+        android:pathData="M84,95 L100,38 L116,95 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="84"
+                android:startY="38"
+                android:endX="116"
+                android:endY="95">
+                <item android:offset="0.0" android:color="#FFB300"/>
+                <item android:offset="1.0" android:color="#E65100"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Kalash Kalasa on Top of Main Temple -->
+    <path
+        android:pathData="M97,38 L100,28 L103,38 Z"
+        android:fillColor="#FFD54F"/>
+
+    <!-- Sacred Saffron Flag (Dhwaj) on Main Temple -->
+    <path
+        android:pathData="M100,28 L100,12 M100,12 C115,10 125,18 135,14 L100,24 Z"
+        android:fillColor="#FF3D00"
+        android:strokeWidth="2"
+        android:strokeColor="#FF3D00"/>
+
+    <!-- Right Domes -->
+    <path
+        android:pathData="M110,100 L122,52 L134,100 Z"
+        android:fillColor="#EF6C00"/>
+    <path
+        android:pathData="M128,105 L138,68 L148,105 Z"
+        android:fillColor="#E65100"/>
+    <path
+        android:pathData="M144,110 L152,82 L160,110 Z"
+        android:fillColor="#D84315"/>
+
+    <!-- Sacred Kalash in Center -->
+    <!-- Mango Leaves (Aam ke Patte) -->
+    <path
+        android:pathData="M100,92 C80,60 60,78 75,98 Z"
+        android:fillColor="#2E7D32"/>
+    <path
+        android:pathData="M100,92 C120,60 140,78 125,98 Z"
+        android:fillColor="#388E3C"/>
+    <path
+        android:pathData="M100,92 C88,52 112,52 100,92 Z"
+        android:fillColor="#4CAF50"/>
+    <path
+        android:pathData="M100,92 C72,75 88,95 100,92 Z"
+        android:fillColor="#1B5E20"/>
+    <path
+        android:pathData="M100,92 C128,75 112,95 100,92 Z"
+        android:fillColor="#2E7D32"/>
+
+    <!-- Sacred Coconut (Nariyal) Top -->
+    <path
+        android:pathData="M100,60 C88,72 88,88 100,92 C112,88 112,72 100,60 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="88"
+                android:startY="60"
+                android:endX="112"
+                android:endY="92">
+                <item android:offset="0.0" android:color="#6D4C41"/>
+                <item android:offset="1.0" android:color="#3E2723"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Golden Kalash Vessel Body -->
+    <path
+        android:pathData="M78,98 L122,98 C126,98 130,102 128,106 L124,118 C128,135 122,148 100,148 C78,148 72,135 76,118 L72,106 C70,102 74,98 78,98 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="70"
+                android:startY="98"
+                android:endX="130"
+                android:endY="148">
+                <item android:offset="0.0" android:color="#FFE082"/>
+                <item android:offset="0.4" android:color="#FFB300"/>
+                <item android:offset="0.8" android:color="#FF8F00"/>
+                <item android:offset="1.0" android:color="#E65100"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Neck Ring Accent -->
+    <path
+        android:pathData="M76,104 L124,104"
+        android:strokeWidth="3"
+        android:strokeColor="#D84315"/>
+
+    <!-- Sacred Red Tilak & Tripundra Mark on Kalash -->
+    <path
+        android:pathData="M88,120 L112,120 M88,124 L112,124 M88,128 L112,128"
+        android:strokeWidth="1.8"
+        android:strokeColor="#FFFFFF"/>
+    <path
+        android:pathData="M100,118 C96,122 96,132 100,135 C104,132 104,122 100,118 Z"
+        android:fillColor="#D50000"/>
+
+    <!-- Pilgrim Silhouettes (Yatri & Sadhus) -->
+    <!-- Left Pilgrims -->
+    <path
+        android:pathData="M28,122 C28,120 30,120 30,122 L30,128 C28,128 26,132 26,138 M28,120 A2,2 0 1,1 28,116"
+        android:strokeWidth="2"
+        android:strokeColor="#1A237E"
+        android:fillColor="#1A237E"/>
+    <path
+        android:pathData="M38,118 C38,116 40,116 40,118 L42,125 L44,138 M38,114 A2.5,2.5 0 1,1 38,109"
+        android:strokeWidth="2.5"
+        android:strokeColor="#0D47A1"
+        android:fillColor="#0D47A1"/>
+    <path
+        android:pathData="M52,116 C52,114 54,114 54,116 L56,124 L58,138 M52,112 A3,3 0 1,1 52,106"
+        android:strokeWidth="3"
+        android:strokeColor="#1565C0"
+        android:fillColor="#1565C0"/>
+
+    <!-- Right Pilgrims -->
+    <path
+        android:pathData="M148,116 C148,114 150,114 150,116 L152,124 L154,138 M148,112 A3,3 0 1,1 148,106"
+        android:strokeWidth="3"
+        android:strokeColor="#1565C0"
+        android:fillColor="#1565C0"/>
+    <path
+        android:pathData="M162,118 C162,116 164,116 164,118 L166,125 L168,138 M162,114 A2.5,2.5 0 1,1 162,109"
+        android:strokeWidth="2.5"
+        android:strokeColor="#0D47A1"
+        android:fillColor="#0D47A1"/>
+    <path
+        android:pathData="M172,122 C172,120 174,120 174,122 L174,128 L176,138 M172,120 A2,2 0 1,1 172,116"
+        android:strokeWidth="2"
+        android:strokeColor="#1A237E"
+        android:fillColor="#1A237E"/>
+
+    <!-- Sacred River Waves (Holy Godavari / Ganga Waves) -->
+    <!-- Wave 1 (Deep Blue Top Wave) -->
+    <path
+        android:pathData="M20,138 C40,128 65,145 90,138 C115,130 140,145 160,138 C172,134 180,138 185,142 C180,152 160,158 135,152 C110,146 85,158 60,152 C40,148 25,152 20,138 Z"
+        android:fillColor="#1565C0"/>
+
+    <!-- Wave 2 (Mid Blue Wave) -->
+    <path
+        android:pathData="M15,148 C35,140 60,156 85,148 C110,140 135,156 160,148 C175,143 185,148 190,154 C185,165 165,170 140,165 C115,160 90,170 65,165 C40,160 22,164 15,148 Z"
+        android:fillColor="#0288D1"/>
+
+    <!-- Wave 3 (Light Sky Blue Bottom Wave) -->
+    <path
+        android:pathData="M20,160 C40,152 65,168 90,160 C115,152 140,168 165,160 C178,155 185,160 188,166 C180,178 158,184 135,178 C110,172 85,182 60,178 C40,174 25,176 20,160 Z"
+        android:fillColor="#29B6F6"/>
+
+    <!-- Bottom Light Reflection -->
+    <path
+        android:pathData="M35,172 C60,165 85,178 110,172 C135,165 155,175 170,172 C155,184 130,188 105,184 C80,180 55,186 35,172 Z"
+        android:fillColor="#80D8FF"/>
+</vector>
